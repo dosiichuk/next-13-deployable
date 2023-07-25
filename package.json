@@ -39,6 +39,7 @@
     "seed": "ts-node -P tsconfig-seed.json -r tsconfig-paths/register --transpileOnly prisma/seed.ts"
   },
   "devDependencies": {
-    "@types/cookie": "^0.5.1"
+    "@types/cookie": "^0.5.1",
+    "prisma": "^5.0.0"
   }
 }
